@@ -5,7 +5,7 @@ from discord.ext import commands,tasks
 from itertools import cycle
 
 intents = discord.Intents(messages = True, guilds = True, reactions = True, members = True, presences = True)
-client = commands.Bot(command_prefix = 'pls', intents = intents)
+client = commands.Bot(command_prefix = '!', intents = intents)
 
 @client.event
 async def on_ready():
