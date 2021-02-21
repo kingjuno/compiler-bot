@@ -13,7 +13,7 @@ A Discord bot which can compile code, display the output of the compiler, and ru
 # Body of program
 ```
 ````
-#### Compiling a program with no STDIN
+#### Compiling a program with STDIN
 ````
 !compile
 ```py
